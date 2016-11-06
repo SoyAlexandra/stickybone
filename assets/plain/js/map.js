@@ -15,6 +15,7 @@ var GoogleMap = (function(window, undefined) {
 
         script.type = 'text/javascript';
         script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&callback=GoogleMap.init';
+        
 
         document.body.appendChild(script);
 
