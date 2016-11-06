@@ -1,8 +1,8 @@
 <?php
 
-  define('ADMIN', 'info@loginov.biz');
-  define('COMPANY', 'eVentual');
-  define('DEFAULT_SUBJECT', 'E-mail from eVentual');
+  define('ADMIN', 'odontologia@capellaoe.com');
+  define('COMPANY', 'Capella Odontología Especializada');
+  define('DEFAULT_SUBJECT', 'Curso Sticky Bone&trade; y CFG de WAUPS Colombia');
   
   include 'mailsend.php';
 
@@ -25,7 +25,7 @@
           <h1>'.$subject.'</h1>';
 
           // Text before data table
-          $messageHtml .= '';
+          $messageHtml .= 'Cordial Saludo.  Gracias por registrarse al Curso de Sticky Bone y CFG';
 
           // Order table html
           $messageHtml .= '<br /><table>';
