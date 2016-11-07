@@ -930,7 +930,7 @@ a, button { text-decoration: none; -webkit-transition: color 400ms, background 4
 .b-speakers_cell { display: inline-block; vertical-align: top; float: none; letter-spacing: normal; }
 
 .b-speakers_view { position: relative; margin: 0 auto 40px; max-width: 280px; letter-spacing: .025em; text-align: center; }
-.b-speakers_view_pic { display: block; margin: 0 auto 20px; width: 140px; height: 140px; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; }
+.b-speakers_view_pic { display: block; margin: 0 auto 20px; width: 300px; height: 300px; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; }
 
 .b-speakers_view h3 { font: 900 1.125em/1.5 'Lato', sans-serif; }
 .b-speakers_view h3 span { display: block; font: 400 .77777777777778em 'Lato', sans-serif; }
