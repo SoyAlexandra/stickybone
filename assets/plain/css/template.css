@@ -1164,7 +1164,7 @@ a, button { text-decoration: none; -webkit-transition: color 400ms, background 4
 /* --------------------
    -------------------- Sections :: Contacts -------------------- */
 .b-contacts { position: relative; overflow: hidden; }
-.b-contacts_inner { position: relative; z-index: 25; padding-bottom: 300px; pointer-events: none; }
+.b-contacts_inner { position: relative; z-index:    ; padding-bottom: 300px; pointer-events: none; }
 
 @media (min-width: 480px) {
 
