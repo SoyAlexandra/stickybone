@@ -1,7 +1,7 @@
 <?php
 
-  define('API_KEY', '4dc3b1dbcb641d914854b69a4678745a-us11');
-  define('LIST_ID', '09c1c0398f');
+  define('API_KEY', '04b599c7635de0af6fb554207416053b-us11');
+  define('LIST_ID', '961f8f1286');
 
   require_once('MailChimp.php');
 

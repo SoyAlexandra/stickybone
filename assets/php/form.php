@@ -25,7 +25,7 @@
           <h1>'.$subject.'</h1>';
 
           // Text before data table
-          $messageHtml .= 'Cordial Saludo.  Gracias por registrarse al Curso de Sticky Bone y CFG';
+          $messageHtml .= '';
 
           // Order table html
           $messageHtml .= '<br /><table>';
@@ -36,7 +36,7 @@
           if(isset($email) && $email !== null) { $messageHtml .= '<tr><td width="300">E-mail: </td><td>'.$email.'</td></tr>'; }
           if(isset($msg) && $msg !== null) { $messageHtml .= '<tr><td width="300">Message: </td><td>'.$msg.'</td></tr>'; }
           if(isset($ticket) && $ticket !== null) { $messageHtml .= '<tr><td width="300">Ticket: </td><td>'.$ticket.'</td></tr>'; }
-          if(isset($ticketValidity) && $ticketValidity !== null) { $messageHtml .= '<tr><td width="300">Ticket validity: </td><td>'.$ticketValidity.'</td></tr>'; }
+          //if(isset($ticketValidity) && $ticketValidity !== null) { $messageHtml .= '<tr><td width="300">Ticket validity: </td><td>'.$ticketValidity.'</td></tr>'; }
           $messageHtml .= '<tr><td width="300">Date:</td><td>'.date('d.m.Y H:i').'</td></tr>';
 
           $messageHtml .= '</table><br />';
@@ -59,8 +59,8 @@
     'hideForm' => true,
 
     'msg' => '
-        <h3>Thank You!</h3>
-        <p>Your message has been successfully delivered.</p>
+        <h3>Gracias!</h3>
+        <p>La información ha sido enviada de forma exitosa.</p>
     '
 
   );
@@ -70,8 +70,8 @@
       // Success message
 
       $response['msg'] = '
-          <h3>Thank You!</h3>
-          <p>Your message has been successfully delivered.</p>
+          <h3>Gracias!</h3>
+          <p>La información ha sido enviada existosamente.</p>
       ';
 
   } else {
@@ -80,7 +80,7 @@
 
       $response['msg'] = '
         <h3>Error!</h3>
-        <p>Mail failed.</p>
+        <p>Falló envío.</p>
       ';
 
   }
