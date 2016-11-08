@@ -405,11 +405,11 @@ a, button { text-decoration: none; -webkit-transition: color 400ms, background 4
  * * * * * * Logotype * * * * * */
 .b-header_logo { display: inline-block; position: relative; }
 
-.b-header_logo__pic img { display: block; visibility: visible; opacity: 1; }
-.b-header_logo__pic img + img { position: absolute; left: 0; top: 0; visibility: hidden; opacity: 0; }
+.b-header_logo__pic img { display: block; visibility: visible; opacity: 1; width: 125px; height: 125px; }
+.b-header_logo__pic img + img { position: absolute; left: 0; top: 0; visibility: hidden; opacity: 0; width: 125px; height: 125px; }
 
-.b-header__transparent .b-header_logo__pic img { visibility: hidden; opacity: 0; }
-.b-header__transparent .b-header_logo__pic img + img { visibility: visible; opacity: 1; }
+.b-header__transparent .b-header_logo__pic img { visibility: hidden; opacity: 0; width: 125px; height: 125px; }
+.b-header__transparent .b-header_logo__pic img + img { visibility: visible; opacity: 1; width: 125px; height: 125px; }
 
 .b-header_logo__text { height: 22px; font: 900 1.75em/.78571428571429 'Lato', sans-serif; letter-spacing: .025em; -webkit-transition: color 400ms; -moz-transition: color 400ms; transition: color 400ms; }
 .b-header_logo__text small { font-weight: 700; font-size: .78571428571429em; }
@@ -1164,7 +1164,7 @@ a, button { text-decoration: none; -webkit-transition: color 400ms, background 4
 /* --------------------
    -------------------- Sections :: Contacts -------------------- */
 .b-contacts { position: relative; overflow: hidden; }
-.b-contacts_inner { position: relative; z-index:    ; padding-bottom: 300px; pointer-events: none; }
+.b-contacts_inner { position: relative; z-index: 25; padding-bottom: 300px; pointer-events: none; }
 
 @media (min-width: 480px) {
 

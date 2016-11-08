@@ -2,7 +2,7 @@
 
   define('ADMIN', 'odontologia@capellaoe.com');
   define('COMPANY', 'Capella Odontología Especializada');
-  define('DEFAULT_SUBJECT', 'Curso Sticky Bone&trade; y CFG de WAUPS Colombia');
+  define('DEFAULT_SUBJECT', 'Curso Sticky Bone&trade; y CGF de WAUPS Colombia');
   
   include 'mailsend.php';
 

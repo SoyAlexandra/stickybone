@@ -10,7 +10,7 @@
 
 /* --------------------
    -------------------- Intro -------------------- */
-.b-intro__background { background-image: url('../../img/2.jpg'); }
+.b-intro__background { background-image: url('../../img/1.jpg'); }
 
 .b-intro__slider .b-slider_item__first .b-intro_wrapper { background-image: url('http://placehold.it/1920x1000.jpg/17161c/999999'); }
 .b-intro__slider .b-slider_item__second .b-intro_wrapper { background-image: url('http://placehold.it/1920x1000.jpg/17161c/999999'); }
@@ -19,12 +19,12 @@
 
 /* --------------------
    -------------------- Counters -------------------- */
-.b-counters { background-image: url('http://placehold.it/1920x1000.jpg/17161c/999999'); }
+.b-counters { background-image: url('../../img/register.jpg'); }
 
 /* --------------------
    -------------------- Subscribe -------------------- */
-.b-subscribe { background-image: url('http://placehold.it/1920x1000.jpg/17161c/999999'); }
+.b-subscribe { background-image: url('../../img/suscribirse.jpg'); }
 
 /* --------------------
    -------------------- SignUp -------------------- */
-.b-signUp { background-image: url('http://placehold.it/1920x1000.jpg/17161c/999999'); }
+.b-signUp { background-image: url('../../img/register.jpg'); }
