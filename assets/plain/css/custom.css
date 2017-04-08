@@ -12,8 +12,9 @@
    -------------------- Intro -------------------- */
 .b-intro__background { background-image: url('../../img/7.jpg'); }
 
-.b-intro__slider .b-slider_item__first .b-intro_wrapper { background-image: url('http://placehold.it/1920x1000.jpg/17161c/999999'); }
-.b-intro__slider .b-slider_item__second .b-intro_wrapper { background-image: url('http://placehold.it/1920x1000.jpg/17161c/999999'); }
+.b-intro__slider .b-slider_item__first .b-intro_wrapper { background-image: url('/assets/img/1.jpg'); }
+.b-intro__slider .b-slider_item__second .b-intro_wrapper { background-image: url('/assets/img/julio_capella_bloquesCFG.jpg'); }
+.b-intro__slider .b-slider_item__third .b-intro_wrapper { background-image: url('/assets/img/7.jpg'); }
 
 .m-touch .b-intro__video { background-image: url('http://placehold.it/1920x1000.jpg/17161c/999999'); }
 
